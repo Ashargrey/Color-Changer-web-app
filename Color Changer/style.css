@@ -1,0 +1,131 @@
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ body {
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: #f4f4f4;
+ }
+
+ main {
+     width: 360px;
+     background: #ffffff;
+     padding: 25px;
+     border-radius: 10px;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     margin: 0 15px;
+ }
+
+ .heading {
+     font-size: 1.8rem;
+     margin-bottom: 20px;
+     color: #333;
+ }
+
+ .inp {
+     width: 100%;
+     padding: 10px;
+     border-radius: 6px;
+     border: 1px solid #ccc;
+     margin: 10px 0;
+     font-size: 0.95rem;
+ }
+
+ .inp:focus {
+     border-color: #007bff;
+     outline: none;
+ }
+
+ button {
+     width: 100%;
+     padding: 10px;
+     border: none;
+     border-radius: 6px;
+     margin-top: 10px;
+     cursor: pointer;
+     font-size: 0.95rem;
+     transition: 0.2s;
+ }
+
+ .random_btn {
+     background: #007bff;
+     color: white;
+ }
+
+ .random_btn:hover {
+     background: #0069d9;
+ }
+
+ .copy_btn {
+     background: #333;
+     color: white;
+ }
+
+ .copy_btn:hover {
+     background: #222;
+ }
+
+ .apply_btn {
+     background: #28a745;
+     color: white;
+ }
+
+ .apply_btn:hover {
+     background: #218838;
+ }
+
+ .current_color {
+     margin-top: 15px;
+     font-size: 0.95rem;
+     color: #555;
+ }
+
+ span {
+     font-weight: bold;
+     color: #000;
+ }
+
+ #toast {
+     position: fixed;
+     top: 20px;
+     left: 50%;
+     transform: translateX(-50%) translateY(-20px);
+     padding: 12px 18px;
+     border-radius: 6px;
+     font-size: 0.9rem;
+     color: #fff;
+     opacity: 0;
+     transition: all 0.3s ease;
+     pointer-events: none;
+     z-index: 999;
+     min-width: 250px;
+     max-width: 90%;
+     text-align: center;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+ }
+
+ #toast.show {
+     opacity: 1;
+     transform: translateX(-50%) translateY(0);
+ }
+
+ #toast.success {
+     background: #28a745;
+ }
+
+ #toast.error {
+     background: #dc3545;
+ }
+
+ #toast.info {
+     background: #333;
+ }
+
+ 

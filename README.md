@@ -31,6 +31,7 @@ A simple and interactive Color Changer Web Application built using HTML, CSS, an
 ## 📂 Project Structure
 
 Color-Changer-web-app/
+
 │── index.html
 
 │── style.css

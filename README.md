@@ -52,7 +52,8 @@ Color-Changer-web-app/
 
 ## 📸 Preview
 
-(Add screenshot here)
+<img width="1365" height="599" alt="image" src="https://github.com/user-attachments/assets/a886aeb4-434b-4095-ab0c-c69e45ff867e" />
+
 
 ---
 

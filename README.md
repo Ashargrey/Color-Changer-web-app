@@ -32,7 +32,9 @@ A simple and interactive Color Changer Web Application built using HTML, CSS, an
 
 Color-Changer-web-app/
 │── index.html
+
 │── style.css
+
 │── script.js
 
 
